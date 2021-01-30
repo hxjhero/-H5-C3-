@@ -1,0 +1,29 @@
+/* .my-page li{
+    float: left;
+    list-style: none;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    cursor:pointer;
+}
+.my-page span{
+    float:left;
+}
+.my-page li.my-page-current{
+    background-color: #428bca;
+    color: #fff;
+} */
+.my-page{
+    display: flex;
+}
+.my-page li{
+    list-style: none;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    cursor: pointer;
+}
+.my-page li.my-page-current{
+    background-color: #428bca;
+    color: #fff;
+}
