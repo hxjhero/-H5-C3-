@@ -31,7 +31,7 @@
         getData() {  //请求数据
             var This = this;
             $.ajax({
-                url: 'http://api.duyiedu.com/api/student/findAll?appkey=hxjhero_1593140158279',
+                url: 'https://api.duyiedu.com/api/student/findAll?appkey=hxjhero_1593140158279',
                 success: function (data) {
                     var list = JSON.parse(data).data;
 

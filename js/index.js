@@ -245,7 +245,7 @@ function renderEditForm(data) {
 
 function transferData(path, data, cb) {
     $.ajax({
-        url: 'http://api.duyiedu.com' + path,
+        url: 'https://api.duyiedu.com' + path,
         type: 'get',
         data: $.extend({
             appkey: 'hxjhero_1593140158279'
